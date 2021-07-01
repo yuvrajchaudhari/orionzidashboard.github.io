@@ -242,7 +242,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="reports.html" class="nav-link">
+              <a href="http://3.6.111.125/#/reports/reports" class="nav-link">
                 <i class="nav-icon fas fa-chart-bar"></i> 
                 <p>
                    Reports
@@ -465,12 +465,12 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Dashboard</h1>
+              <h1 class="m-0">Reports</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard</li>
+                <li class="breadcrumb-item active">Reports</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -482,168 +482,89 @@
       <div class="content">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-info">
-                <div class="inner">
-                  <h3 style="visibility: hidden;">150</h3>
-
-                  <p>Inventory Report</p>
-                </div>
-                <div class="icon">
-                  <i class="ionicons ion-android-clipboard"></i>
-                </div>
-                <a href="http://3.6.111.125/#/reports/inventory-reports" class="small-box-footer">More info <i
-                    class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-success">
-                <div class="inner">
-                  <h3 style="visibility: hidden;">53<sup style="font-size: 20px">%</sup></h3>
-
-                  <p class="text-white">Supplier Report</p>
-                </div>
-                <div class="icon">
-                  <i class="ionicons ion-android-bus"></i>
-                </div>
-                <a href="#" class="small-box-footer" >More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-yellow">
-                <div class="inner">
-                  <h3 style="visibility: hidden;">44</h3>
-
-                  <p>Sales Report</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-stats-bars"></i>
-                </div>
-                <a href="#" class="small-box-footer" style="color: #ffffff !important;">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-danger">
-                <div class="inner">
-                  <h3 style="visibility: hidden;">65</h3>
-
-                  <p>Aging Report</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-pie-graph"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
-          </div>
-          <!-- /.row -->
-          <div class="row mt-4">
-            <div class="col-md-6">
-              <!-- STACKED BAR CHART -->
+            <div class="col-md-4">
               <div class="card card-primary">
                 <div class="card-header">
-                  <h3 class="card-title">Receipt</h3>
-
-                  <!-- <div class="card-tools">
-                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                      <i class="fas fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-tool" data-card-widget="remove">
-                      <i class="fas fa-times"></i>
-                    </button>
-                  </div> -->
+                  <h3 class="card-title">User Management Report</h3>
                 </div>
-                <div class="card-body">
-                  <div class="chart">
-                    <canvas id="stackedBarChart"
-                      style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
-                  </div>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- DONUT CHART -->
-              <div class="card card-danger">
-                <div class="card-header">
-                  <h3 class="card-title">Quality</h3>
-                </div>
-                <div class="card-body">
-                  <canvas id="donutChart"
-                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                <!-- /.card-header -->
+                <div class="card-body" style="display: block;">
+                  <ol>
+                    <li>User wise Store Transaction Log report</li>
+                    <li>Periodic Store Transaction Log Report</li>
+                    <li> User Wise Right Report </li>
+                    <li> User Active Report </li>
+                  </ol>
                 </div>
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-              <!-- PIE CHART -->
-              <div class="card card-danger">
-                <div class="card-header">
-                  <h3 class="card-title">Inventory Daywise</h3>
-                </div>
-                <div class="card-body">
-                  <canvas id="pieChart"
-                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.card -->
-
-
             </div>
-            <!-- /.col (LEFT) -->
-            <div class="col-md-6">
-              <!-- BAR CHART -->
+            <!-- /.col -->
+            <div class="col-md-4">
               <div class="card card-success">
                 <div class="card-header">
-                  <h3 class="card-title">Dispatch </h3>
+                  <h3 class="card-title"> Document Format</h3>
                 </div>
+                <!-- /.card-header -->
                 <div class="card-body">
-                  <div class="chart">
-                    <canvas id="barChart"
-                      style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <ol>
+                        <li>PO</li>
+                        <li>ASN</li>
+                        <li>Gate Entry</li>
+                        <li>GRN</li>
+                        <li>Inspection</li>
+                      </ol>
+                    </div>
+                    <div class="col-md-6">
+                      <ol>
+                        <li>Pallet Barcode</li>
+                        <li>Sales Order</li>
+                        <li>PickList </li>
+                        <li>Packing List</li>
+                        <li>Delivery Challan</li>
+                      </ol>
+                    </div>
                   </div>
                 </div>
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-
-              <!-- BAR CHART -->
-              <div class="card card-info">
-                <div class="card-header">
-                  <h3 class="card-title">Stock Utilization (In percentage) </h3>
-                </div>
-                <div class="card-body">
-                  <div class="chart">
-                    <canvas id="stackUtilizebarChart"
-                      style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
-                  </div>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.card -->
-
-              <!-- PIE CHART -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-4">
               <div class="card card-warning">
                 <div class="card-header">
-                  <h3 class="card-title">Warehouse Utlilization (In percentage)</h3>
+                  <h3 class="card-title">Stock Adjustments
+                  </h3>
+                  <!-- /.card-tools -->
                 </div>
+                <!-- /.card-header -->
                 <div class="card-body">
-                  <canvas id="warehousepieChart"
-                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                 <div class="row">
+                   <div class="col-md-12">
+                     <ol>
+                       <li>Periodic Pallet Ajustement Report
+                        
+                        </li>
+                        <li>
+                          Item wise Pallet Adjustment Report                       
+                        </li>
+                        <li>
+                          Storage Location wise Pallet Adjustment Report
+                        </li>
+                     </ol>
+                   </div>
+                 </div>
                 </div>
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-
             </div>
-            <!-- /.col (RIGHT) -->
           </div>
+        </div>
         </div><!-- /.container-fluid -->
       </div>
       <!-- /.content -->
