@@ -8,3 +8,8 @@ body{
     .nav-sidebar .nav-link>.right:nth-child(2), .nav-sidebar .nav-link>p>.right:nth-child(2) {
         right: 0.5rem;
     }
+   .sidebar .nav-link {
+        display: block;
+        padding: .75rem 1rem;
+        color: #fff !important;
+    }
