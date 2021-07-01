@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 
 <head>
@@ -26,6 +22,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/wms.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <link rel="stylesheet" href="dist/css/custom.css">
 </head>
 
@@ -371,8 +369,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </li>
                 
               </ul>
-            </li>
-            
+            </li>            
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="nav-icon fa fa-key"></i>
@@ -399,6 +396,60 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   </a>
                 </li>
               </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-cloud-upload-alt"></i>
+                BOM Operations
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/bom" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM Master
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/bommr" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM MR
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/picklist" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM Picklist
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/process-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM Processing
+                    </p>
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="http://3.6.111.125/#/grn/grn" class="nav-link">
+                <i class="nav-icon fa fa-suitcase"></i>
+                <p>
+                  GRN
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="http://3.6.111.125/#/qc/qc" class="nav-link">
+                <i class="nav-icon fa fa-suitcase"></i>
+                <p>
+                  QC
+                </p>
+              </a>
             </li>
           </ul>
         </nav>
@@ -664,6 +715,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- ChartJS -->
   <script src="plugins/chart.js/Chart.min.js"></script>
+  <!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- WMS App -->
   <script src="dist/js/wms.min.js"></script>
 
