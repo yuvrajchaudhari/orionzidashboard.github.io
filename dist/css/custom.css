@@ -14,3 +14,6 @@ body{
 .small-box h3, .small-box p {
     color: #fff;
 }
+.reports ul li {
+    padding: 6px 0px;
+}
