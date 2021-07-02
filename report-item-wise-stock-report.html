@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="./">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  <meta name="description" content="Red Bixbite WMS">
+  <meta name="keyword" content="WMS">
+  <!-- <link rel="shortcut icon" href="http://demo-wms.redbixbite.com/public/uploads/2020-10/56ed381e4d95343b082be73a167db573.png"> -->
+  <!-- <link rel="shortcut-icon" href="assets/img/brand/orionzi logo 250- 100-1.png" > -->
+  <link rel="icon" type="image/x-icon" href="dist/img/brand/orionzi logo 250- 100-1.png">
+  <title>Reports Red Bixbite WMS</title>
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/wms.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="dist/css/custom.css">
+</head>
+
+<body class="sidebar-mini layout-fixed  layout-navbar-fixed">
+  <div class="wrapper">
+
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+      <!-- Left navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link d-none" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="index.html" class="nav-link">Hello Demo
+          </a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="http://3.6.111.125/" class="nav-link"><button type="button"
+              class="btn btn-block bg-gradient-danger btn-sm">Logout</button></a>
+        </li>
+      </ul>
+
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-primary">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-link bg-white">
+        <img src="dist/img/brand/orionzi-logo.jpg" class="img-fluid">
+      </a>
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  Dashboard
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon far fa-handshake"></i>
+
+                Onboarding Setup
+                <i class="right fas fa-angle-left"></i>
+
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="pages/charts/chartjs.html" class="nav-link">
+                    <i class="far fa-handshake"></i>
+                    <p>Client Onboarding</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-cogs"></i>
+
+                Data Setup
+                <i class="fas fa-angle-left right"></i>
+
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/item/item" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item Type </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/itemcat/itemcat" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item Category</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/uom/uom" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>UoM Master</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/department/department" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Department</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/machine-no/machine-no" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Machine Number</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/assetitem" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Items Add</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/party/party" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Party Master</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/warehouse/warehouse" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Warehouse Add</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/wharealocn/wharealocn" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Warehouse Location</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/customers/customers" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Customers</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/suppliers/suppliers" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Supplier</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-th-list text-normal"></i>
+
+                Inventory Management
+                <i class="fas fa-angle-left right"></i>
+
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/assetitemin" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item In </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/assetitemout" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item Out</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/mr-itemout-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>
+                      MR Item out List
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/assetitemlists" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item List</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-arrows-alt"></i>
+
+                Inventory Movement
+                <i class="fas fa-angle-left right"></i>
+
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/assetitemmovement" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item Movement
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/barcode-movement" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Barcode Movement
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/item-movement-approval" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p> Item Movement Approval </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/assetitem/item-movement-alert" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Item Movement Alerts
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="reports.html" class="nav-link active">
+                <i class="nav-icon fas fa-chart-bar"></i>
+                <p>
+                  Reports
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-shopping-cart"></i>
+                ASN Operations
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/asn/asn-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ASN List
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/asn/asn-approval-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ASN Approval
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-shopping-cart"></i>
+                Material Requisition
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/material-requisition/material-requisition" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Create MR Request
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/material-requisition/mr-request-approval" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>MR Request Approval
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-cloud-upload-alt"></i>
+                Bulk Import & Export
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bulk-import/bulk-item-in" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Bulk Item In
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bulk-import/bulk-item-out" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Bulk Item Out
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="http://3.6.111.125/#/invoice/invoice" class="nav-link">
+                <i class="nav-icon far fa-file-alt"></i>
+                <p>
+                  Invoice
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-cloud-upload-alt"></i>
+                Picking and Packing
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/picklist/picklist" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p> Picklist</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/picklist/barcode-picklist-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Barcode Picklist </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/picklist/barcode-picklist-approval" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Barcode Picklist Approval</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/packing/packing" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Packing Slip </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/packing/barcode-packing-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Barcode Packing Slip
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-key"></i>
+                PO Operations
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/polist/polist" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p> Create PO</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/polist/approve-po" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Approve PO </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/polist/delivery-schedule" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Delivery Schedule</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-cloud-upload-alt"></i>
+                BOM Operations
+                <i class="fas fa-angle-left right"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/bom" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM Master
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/bommr" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM MR
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/picklist" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM Picklist
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://3.6.111.125/#/bom/process-list" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>BOM Processing
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="http://3.6.111.125/#/grn/grn" class="nav-link">
+                <i class="nav-icon fa fa-suitcase"></i>
+                <p>
+                  GRN
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="http://3.6.111.125/#/qc/qc" class="nav-link">
+                <i class="nav-icon far fa-check-square"></i>
+                <p>
+                  QC
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+      </div>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1 class="m-0">Itemwise Stock Reports</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="reports.html">Reports</a></li>
+                <li class="breadcrumb-item active">Itemwise Stock Report</li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.content-header -->
+
+      <!-- Main content -->
+      <div class="content reports">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- STACKED BAR CHART -->
+              <div class="card card-info">
+                <div class="card-header">
+                  <h3 class="card-title">Graphical Report</h3>
+                </div>
+                <div class="card-body">
+                  <div class="chart">
+                    <canvas id="stackedBarChart"
+                      style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card card-info">
+                <div class="card-header">
+                  <h3 class="card-title">Table View</h3>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th style="width: 10px">Sr.No</th>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Total Stock </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td> 1 </td>
+                        <td> C0229 </td>
+                        <td> FOAM BAG FOR W105 APPLIQUE RH-SIZE 3 X 7 </td>
+                        <td> 500 </td>
+                      </tr>
+                      <tr>
+                        <td> 2 </td>
+                        <td> C0117 </td>
+                        <td> FOAM BAG FOR HIGH END/GLOVE BOX 360x450mmx1mm </td>
+                        <td> 400 </td>
+
+
+                      </tr>
+                      <tr>
+                        <td> 3 </td>
+                        <td> C0081 </td>
+                        <td> FINGER COATS-144 NOS PER BOX </td>
+                        <td> 250 </td>
+
+                      </tr>
+                      <tr>
+
+                        <td> 4 </td>
+                        <td> C1421 </td>
+                        <td> CG BOX 7 PLY FOR BAJAJ KTM FUEL TANK-SIZE 550 mm X 550 mm X 270 mm _ALL 150 20 BF </td>
+                        <td> 140 </td>
+                      </tr>
+                      <tr>
+
+                        <td> 5 </td>
+                        <td> C0574 </td>
+                        <td> Avery Faspet White(Polyster)Barcode Label Size 100 x 25 mm(1000 Labels/roll) for FCA556
+                          Cluster bzl </td>
+                          <td> 600 </td>
+                      </tr>
+                      <tr>
+                        <td> 6 </td>
+                        <td> C0345 </td>
+                        <td> FOAM BAG 250 X 125 FOR W207 PARKING BRAKE BEZEL/DOOR OUTER FRONT W8W6 RHD </td>
+                        <td> 800 </td>
+                      </tr>
+                      <tr>
+                        <td> 7 </td>
+                        <td> C0350 </td>
+                        <td> FOAM BAG 300 X 225 FOR W207 SCREEN BEZEL </td>
+                        <td> 200 </td>
+
+                      </tr>
+                      <tr>
+                        <td> 8 </td>
+                        <td> C0351 </td>
+                        <td> FOAM BAG 175 X 125 FOR W207 DOOR OUTER FRONT W10 RHD </td>
+                        <td> 1000 </td>
+
+                      </tr>
+                      <tr>
+                        <td> 9 </td>
+                        <td> C0517 </td>
+                        <td> LAMINATION FOAM BAG FOR DECON SIDE BEZEL 5" X 9" </td>
+                        <td> 650 </td>
+                      </tr>
+                      <tr>
+                        <td> 10 </td>
+                        <td> C0293 </td>
+                        <td> LAMINATION FOAM BAG FOR DECON CENTER BEZEL 6" X 12" </td>
+                        <td> 700 </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      Designed and Developed By <a href="http://redbixbite.com/">Red Bixbite Solutions Pvt Ltd.</a>
+    </div>
+    <!-- Default to the left -->
+    <span>Copyright © 2021. All Rights Reserved.</strong>
+  </footer>
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED SCRIPTS -->
+
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- ChartJS -->
+  <script src="plugins/chart.js/Chart.min.js"></script>
+  <!-- overlayScrollbars -->
+  <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+  <!-- WMS App -->
+  <script src="dist/js/wms.min.js"></script>
+  <script>
+    $(function () {
+      /* ChartJS
+       * -------
+       * Here we will create a few charts using ChartJS
+       */
+
+      //--------------
+      //- AREA CHART -
+      //--------------
+
+      // Get context with jQuery - using jQuery's .get() method.
+      var areaChartCanvas = $('#stackedBarChart').get(0).getContext('2d')
+
+      var areaChartData = {
+        labels: ['C0229', 'C0117', 'C0081', 'C1421', 'C0574', 'C0345', 'C0350', 'C0351', 'C0517','C0293'],
+        datasets: [
+          {
+            label: 'Total Stack',
+            backgroundColor: 'rgba(60,141,188,0.9)',
+            borderColor: 'rgba(60,141,188,0.8)',
+            pointRadius: false,
+            pointColor: '#3b8bba',
+            pointStrokeColor: 'rgba(60,141,188,1)',
+            pointHighlightFill: '#fff',
+            pointHighlightStroke: 'rgba(60,141,188,1)',
+            data: [500, 400, 250, 140, 600, 800, 200, 1000, 650,700]
+          },
+        ]
+      }
+
+      var areaChartOptions = {
+        maintainAspectRatio: false,
+        responsive: true,
+        legend: {
+          display: true
+        },
+        scales: {
+          xAxes: [{
+            gridLines: {
+              display: false,
+            }
+          }],
+          yAxes: [{
+            gridLines: {
+              display: false,
+            }
+          }]
+        }
+      }
+
+      // This will get the first returned node in the jQuery collection.
+      new Chart(areaChartCanvas, {
+        type: 'bar',
+        data: areaChartData,
+        options: areaChartOptions
+      })
+
+      //-------------
+      //- LINE CHART -
+      //--------------
+      var lineChartCanvas = $('#lineChart').get(0).getContext('2d')
+      var lineChartOptions = $.extend(true, {}, areaChartOptions)
+      var lineChartData = $.extend(true, {}, areaChartData)
+      lineChartData.datasets[0].fill = false;
+      lineChartData.datasets[1].fill = false;
+      lineChartOptions.datasetFill = false
+
+      var lineChart = new Chart(lineChartCanvas, {
+        type: 'line',
+        data: lineChartData,
+        options: lineChartOptions
+      })
+
+      //-------------
+      //- DONUT CHART -
+      //-------------
+      // Get context with jQuery - using jQuery's .get() method.
+      var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
+      var donutData = {
+        labels: [
+          'Chrome',
+          'IE',
+          'FireFox',
+          'Safari',
+          'Opera',
+          'Navigator',
+        ],
+        datasets: [
+          {
+            data: [700, 500, 400, 600, 300, 100],
+            backgroundColor: ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
+          }
+        ]
+      }
+      var donutOptions = {
+        maintainAspectRatio: false,
+        responsive: true,
+      }
+      //Create pie or douhnut chart
+      // You can switch between pie and douhnut using the method below.
+      new Chart(donutChartCanvas, {
+        type: 'doughnut',
+        data: donutData,
+        options: donutOptions
+      })
+
+      //-------------
+      //- PIE CHART -
+      //-------------
+      // Get context with jQuery - using jQuery's .get() method.
+      var pieChartCanvas = $('#pieChart').get(0).getContext('2d')
+      var pieData = donutData;
+      var pieOptions = {
+        maintainAspectRatio: false,
+        responsive: true,
+      }
+      //Create pie or douhnut chart
+      // You can switch between pie and douhnut using the method below.
+      new Chart(pieChartCanvas, {
+        type: 'pie',
+        data: pieData,
+        options: pieOptions
+      })
+
+      //-------------
+      //- BAR CHART -
+      //-------------
+      var barChartCanvas = $('#barChart').get(0).getContext('2d')
+      var barChartData = $.extend(true, {}, areaChartData)
+      var temp0 = areaChartData.datasets[0]
+      var temp1 = areaChartData.datasets[1]
+      barChartData.datasets[0] = temp1
+      barChartData.datasets[1] = temp0
+
+      var barChartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        datasetFill: false
+      }
+
+      new Chart(barChartCanvas, {
+        type: 'bar',
+        data: barChartData,
+        options: barChartOptions
+      })
+
+      //---------------------
+      //- STACKED BAR CHART -
+      //---------------------
+      var stackedBarChartCanvas = $('#stackedBarChart').get(0).getContext('2d')
+      var stackedBarChartData = $.extend(true, {}, barChartData)
+
+      var stackedBarChartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          xAxes: [{
+            stacked: true,
+          }],
+          yAxes: [{
+            stacked: true
+          }]
+        }
+      }
+
+      new Chart(stackedBarChartCanvas, {
+        type: 'bar',
+        data: stackedBarChartData,
+        options: stackedBarChartOptions
+      })
+    })
+  </script>
+</body>
+
+</html>
